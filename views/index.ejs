@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+    <body>
+        <header>
+            <h1>Software Development Life Cycle</h1>        
+        </header>
+<%- include('partials/nav.ejs') %>
+        <br>
+        <main>
+            <h2>What is SDLC?</h2>
+            <div id="indexContent">
+                <p><strong>Description:</strong></p>
+                <p> <%- extract %> </p>
+                <br>
+                <p><strong>Building A House Example:</strong></p>
+                <ol>
+                    <li><strong>Planning:</strong> Plan what to build</li>
+                    <li><strong>Design:</strong> Draw blueprints</li>
+                    <li><strong>Implementation:</strong> Build the house</li>
+                    <li><strong>Testing:</strong> Check if it meets the requirements</li>
+                    <li><strong>Deployment:</strong> Move in</li>
+                    <li><strong>Maintenance:</strong> Fix later problems</li>
+                </ol>
+            </div>
+        </main>
+<%- include('partials/footer.ejs') %>
+    </body>
+</html>

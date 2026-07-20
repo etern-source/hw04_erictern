@@ -1,0 +1,36 @@
+<%- include('partials/header.ejs') %>
+    <body>
+        <header>
+            <h1>Software Development Life Cycle</h1>        
+        </header>
+<%- include('partials/nav.ejs') %>
+        <br>
+        <main>
+            <h2>Theories of Software Development</h2>
+            <div id="implementationContent">
+                <p><strong>Different Approaches:</strong></p>
+                <ul>
+                    <li><strong>Waterfall Model:</strong> A linear sequential approach where each phase must be completed before the next begins.
+                    <img id="Waterfall_Model" src="./img/waterfall_model.png" alt="Waterfall Model" width="400" height="300">
+                    </li>
+                    <li><strong>Agile Model:</strong> An iterative and incremental approach that emphasizes flexibility, collaboration, and customer feedback.
+                        <img id="Agile_Model" src="./img/agile_model.png" alt="Agile Model" width="400" height="300">
+                    </li>
+                    
+                    <li><strong>Scrum:</strong> A framework within the Agile methodology that focuses on delivering value in short iterations called sprints.
+                    <img id="Scrum" src="./img/scrum.png" alt="Scrum" width="400" height="300">
+                    </li>
+    
+                    <li><strong>Kanban:</strong> A visual management method that helps teams visualize their work, limit work in progress, and maximize efficiency.
+
+                        <img id="Kanban" src="./img/kanban.png" alt="Kanban" width="400" height="300">
+                    </li>
+                    <li><strong>DevOps:</strong> A set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development cycle and deliver software faster.
+                        <img id="DevOps" src="./img/devops.png" alt="DevOps" width="600" height="300">
+                    </li>
+                </ul>
+            </div>
+        </main>
+<%- include('partials/footer.ejs') %>
+    </body>
+</html>
